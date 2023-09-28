@@ -2,6 +2,9 @@
 """
 Convert a float to its string representation.
 
+def to_str:
+    Convert a float to its string representation
+
 Args:
     n (float): The input floating-point number.
 
