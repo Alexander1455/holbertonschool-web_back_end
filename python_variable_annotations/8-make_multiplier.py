@@ -7,7 +7,7 @@ from typing import Callable
         multiplier (float): The multiplier value.
 
     Returns:
-        Callable[[float], float]: A function that takes a float 
+        Callable[[float], float]: A function that takes a float
         and returns its product with the multiplier.
     """
 
