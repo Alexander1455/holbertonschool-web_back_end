@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-Calculate the sum of floats in a list.
-
 Args:
     input_list (List[float]): A list of floating-point numbers.
 
@@ -12,4 +10,5 @@ from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
+    """Calculate the sum of floats in a list"""
     return sum(input_list)
