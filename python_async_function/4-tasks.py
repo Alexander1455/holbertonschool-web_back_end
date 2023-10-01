@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-""" async and await syntax """
+""" A simple asynchronous coroutine. """
 import asyncio
+from typing import List
 
-wait_random = __import__('0-basic_async_syntax').wait_random
+task_wait_random = __import__('3-tasks').task_wait_random
 
 
-def task_wait_random(max_delay: int) -> asyncio.Task:
-    """ Function that returns asyncio task """
-    end = asyncio.create_task(wait_random(max_delay))
-    return end
+async def task_wait_n(n: int, max_delay: int) -> List[float]:
+    """ Run multiple coroutines at the same time with async """
+    var = [task_wait_n(max_delay) for i in range(n)]
+    finish = [await task for task in asyncio.as_completed(var)]
+    return finish
