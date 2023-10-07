@@ -1,0 +1,2 @@
+// creates or uses the batabase
+use my_db
