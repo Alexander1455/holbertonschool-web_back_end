@@ -15,7 +15,7 @@ export class HolbertonClass {
 
 export class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) { // Agregar el parámetro holbertonClass
-  this._firstName = firstName;
+    this._firstName = firstName;
     this._lastName = lastName;
     this._holbertonClass = holbertonClass; // Asignar holbertonClass
   }
