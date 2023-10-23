@@ -1,1 +1,2 @@
-ES6 Basics
+ES6_basic
+proyect holberton
