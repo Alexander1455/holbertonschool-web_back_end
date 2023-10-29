@@ -5,7 +5,7 @@ function getResponseFromAPI() {
 
     // Simulando una Promesa resuelta con un temporizador
     setTimeout(() => {
-    resolve('Datos de respuesta de la API'); // Reemplaza esto con la respuesta real de la API
+      resolve('Datos de respuesta de la API'); // Reemplaza esto con la respuesta real de la API
     }, 1000); // Simulando un retraso de 1 segundo
   });
 }
