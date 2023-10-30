@@ -6,7 +6,7 @@ function handleProfileSignup() {
   return Promise.all([uploadPhoto(), createUser()])
     .then((data) => {
       // Cuando ambas promesas se resuelven, obtenemos los resultados en el array 'data'.
-      // Imprimimos en la consola una cadena que combina los datos de la respuesta de uploadPhoto 
+      // Imprimimos en la consola una cadena que combina los datos de la respuesta de uploadPhoto
       // y createUser.
       console.log(`${data[0].body} ${data[1].firstName} ${data[1].lastName}`);
     })
