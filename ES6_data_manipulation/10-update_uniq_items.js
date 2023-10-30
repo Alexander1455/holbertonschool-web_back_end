@@ -1,7 +1,7 @@
 function updateUniqueItems(map) {
   // Verificamos si el argumento es un mapa.
   if (!(map instanceof Map)) {
-    throw new Error("Cannot process");
+    throw new Error('Cannot process');
   }
 
   // Iteramos a través de las entradas del mapa.
